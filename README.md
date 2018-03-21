@@ -18,9 +18,80 @@ local cookie = require("cookie")
 
 ### set
 
+Set the cookie data.
+
+```lua
+cookie.set(name, value, expiryDays)
+```
+
+__Arguments__
+
+|Name|Description|Type|Required|
+|----|-----------|----|--------|
+|name|The name of the cookie.|_String_|__Y__|
+|value|The value of the cookie.|_String_|__Y__|
+|expiryDays|How many days the cookie will last. If not provided lasts until deleted.|_Number_|__N__|
+
+__Returns__
+
+The _String_ 'set' on success.
+
+__Example__
+
+```lua
+local res = cookie.set("username", "develephant")
+print(res) --> set
+```
+
 ### get
 
+Get the cookie data.
+
+```lua
+cookie.get(name)
+```
+
+__Arguments__
+
+|Name|Description|Type|Required|
+|----|-----------|----|--------|
+|name|The name of the cookie.|_String_|__Y__|
+
+__Returns__
+
+The cookie value as a _String_. If no cookie data exists, returns empty _String_.
+
+__Example__
+
+```lua
+local username = cookie.get("username")
+print(username) --> develephant
+```
+
 ### delete
+
+Delete the cookie data.
+
+```lua
+cookie.delete(name)
+```
+
+__Arguments__
+
+|Name|Description|Type|Required|
+|----|-----------|----|--------|
+|name|The name of the cookie.|_String_|__Y__|
+
+__Returns__
+
+The _String_ 'deleted' on success.
+
+__Example__
+
+```lua
+local res = cookie.delete("username")
+print(res) --> deleted
+```
 
 ## Demos
 
