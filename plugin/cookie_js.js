@@ -6,10 +6,15 @@
 window.cookie_js = 
 {
   set: function(cookie_name, cookie_value, days) {
-    var d = new Date();
-    d.setTime(d.getTime() + (days*24*60*60*1000));
-    var expires = "expires="+d.toUTCString();
-    document.cookie = cookie_name + "=" + cookie_value + ";" + expires + ";path=/";
+    if  (days != undefined) {
+      var d = new Date();
+      d.setTime(d.getTime() + (days*24*60*60*1000));
+      var expires = "expires="+d.toUTCString();
+      document.cookie = cookie_name + "=" + cookie_value + ";" + expires + ";path=/";
+    } else {
+      document.cookie = cookie_name + "=" + cookie_value + ";path=/";      
+    }
+
     return 'set';
   },
 
@@ -26,11 +31,13 @@ window.cookie_js =
         return val.substring(name.length, val.length);
       }
     }
+
     return "";
   },
 
   delete: function(cookie_name) {
     document.cookie = cookie_name + "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+    
     return 'deleted';
   }
 };
