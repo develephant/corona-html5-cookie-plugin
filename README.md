@@ -39,7 +39,7 @@ The _String_ 'set' on success.
 __Example__
 
 ```lua
-local result = cookie.set("username", "develephant")
+local result = cookie.set("username", "develephant", 1) -- expire in 1 day
 
 print(result) --> set
 ```
