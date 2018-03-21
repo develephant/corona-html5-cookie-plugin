@@ -40,6 +40,7 @@ __Example__
 
 ```lua
 local result = cookie.set("username", "develephant")
+
 print(result) --> set
 ```
 
@@ -65,6 +66,7 @@ __Example__
 
 ```lua
 local username = cookie.get("username")
+
 print(username) --> develephant
 ```
 
@@ -90,6 +92,7 @@ __Example__
 
 ```lua
 local result = cookie.delete("username")
+
 print(result) --> deleted
 ```
 
