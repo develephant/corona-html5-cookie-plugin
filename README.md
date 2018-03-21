@@ -34,6 +34,10 @@ In the __html5__ directory is a compiled version of the demo project that you ca
 
  - Only tested on Google Chrome at this time.
 
- - You can view the cookie data using the Google Chrome _Developer Tools_ window. Click the _Application_ tab, and then _Cookies_ (on the left side menu).
+ - Reload the browser after setting a cookie to see that it has saved the cookie.
+
+ - You can also view the cookie data using the Google Chrome _Developer Tools_ window. Click the _Application_ tab, and then _Cookies_ (on the left side menu).
+
+---
 
 &copy;2018 C. Byerley ([develephant](https://develephant.com))
