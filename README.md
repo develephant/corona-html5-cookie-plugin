@@ -1,3 +1,1 @@
-![logo](logo.png)
-
-# Corona HTML5 Cookie Plugin
+# ![logo](logo.png) Corona HTML5 Cookie Plugin
