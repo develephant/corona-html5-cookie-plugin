@@ -21,7 +21,7 @@ local cookie = require("cookie")
 Set the cookie data.
 
 ```lua
-cookie.set(name, value, expiryDays)
+cookie.set(name, value[, expiryDays])
 ```
 
 __Arguments__
@@ -39,8 +39,8 @@ The _String_ 'set' on success.
 __Example__
 
 ```lua
-local res = cookie.set("username", "develephant")
-print(res) --> set
+local result = cookie.set("username", "develephant")
+print(result) --> set
 ```
 
 ### get
@@ -89,8 +89,8 @@ The _String_ 'deleted' on success.
 __Example__
 
 ```lua
-local res = cookie.delete("username")
-print(res) --> deleted
+local result = cookie.delete("username")
+print(result) --> deleted
 ```
 
 ## Demos
