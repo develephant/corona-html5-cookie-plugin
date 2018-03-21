@@ -110,7 +110,7 @@ In the __html5__ directory is a compiled version of the demo project that you ca
 
  - Only tested on Google Chrome at this time.
 
- - The loading bar is not shown because of the black background. Hopefully this will be a build setting option in the future.
+ - In the demos, the loading bar is not shown because of the black background. Hopefully this will be a build setting option in the future.
 
  - Reload the browser after setting a cookie to see that it has saved the cookie.
 
