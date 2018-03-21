@@ -1,2 +1,3 @@
-# corona-html5-cookie-plugin
-A Corona HTML5 Cookie Plugin
+![logo](logo.png)
+
+# Corona HTML5 Cookie Plugin
