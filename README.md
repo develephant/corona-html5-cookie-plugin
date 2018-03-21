@@ -30,7 +30,7 @@ __Arguments__
 |----|-----------|----|--------|
 |name|The name of the cookie.|_String_|__Y__|
 |value|The value of the cookie.|_String_|__Y__|
-|expiryDays|How many days the cookie will last. If not provided lasts until deleted.|_Number_|__N__|
+|expiryDays|Days till expiration. Otherwise, lasts until deleted.|_Number_|__N__|
 
 __Returns__
 
