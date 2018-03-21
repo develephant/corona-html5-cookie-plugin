@@ -1,5 +1,7 @@
 # ![logo](logo.png) Corona HTML5 Cookie Plugin
 
+A simple to use plugin for setting, getting, and deleting cookies inside your [Corona](https://coronalabs.com) app.
+
 ## Installation
 
  - Download the __Corona HTML5 Cookie Plugin__ repository.
