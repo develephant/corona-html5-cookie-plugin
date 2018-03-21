@@ -110,6 +110,8 @@ In the __html5__ directory is a compiled version of the demo project that you ca
 
  - Only tested on Google Chrome at this time.
 
+ - The loading bar is not shown because of the black background. Hopefully this will be a build setting option in the future.
+
  - Reload the browser after setting a cookie to see that it has saved the cookie.
 
  - You can also view the cookie data using the Google Chrome _Developer Tools_ window. Click the _Application_ tab, and then _Cookies_ (on the left side menu).
