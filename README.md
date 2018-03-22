@@ -96,21 +96,17 @@ local result = cookie.delete("username")
 print(result) --> deleted
 ```
 
-## Demos
+## Demo
 
 ### Corona
 
-In the __demo__ directory is the Corona project that you can compile yourself for testing. The demo does have some debug output that prints to the browser console. The plugin in the __plugin__ directory does not output any debug info.
-
-### HTML5
-
-In the __html5__ directory is a compiled version of the demo project that you can push up to your server for testing.
+In the __demo__ directory is a Corona project that you can build for HTML5 testing. The demo does have some debug output that prints to the browser console. The plugin in the __plugin__ directory does not output any debug info.
 
 ## Notes
 
  - Only tested on Google Chrome at this time.
 
- - In the demos, the loading bar is not shown because of the black background. Hopefully this will be a build setting option in the future.
+ - In the demo, the loading bar is not shown because of the black background. Hopefully this will be a build setting option in the future.
 
  - Reload the browser after setting a cookie to see that it has saved the cookie.
 
