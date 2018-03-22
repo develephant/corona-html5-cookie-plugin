@@ -1,4 +1,4 @@
-# ![logo](logo.png) Corona HTML5 Cookie Plugin
+# ![logo](icons/logo.png) Corona HTML5 Cookie Plugin
 
 __A basic plugin for setting, getting, and deleting cookies inside your [Corona](https://coronalabs.com) HTML5 apps.__
 
@@ -111,6 +111,15 @@ The demo does have some debug output that prints to the browser console. The plu
  - Reload the browser after setting a cookie to see that it has saved the cookie.
 
  - You can also view the cookie data using the Google Chrome _Developer Tools_ window. Click the _Application_ tab, and then _Cookies_ (on the left side menu).
+
+## Browser Tests
+
+|![chrome](icons/chrome.png)|![ie](icons/ie.png)|![firefox](icons/firefox.png)|![safari](icons/safari.png)|![opera](icons/opera.png)|
+|---------------------------|-------------------|-----------------------------|---------------------------|-------------------------|
+|![pass](icons/pass.png)|![untested](icons/untested.png)|![pass](icons/pass.png)|![pass](icons/pass.png)|![untested](icons/pass.png)|
+
+
+_Windows browser unconfirmed._
 
 ---
 
