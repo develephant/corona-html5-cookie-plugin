@@ -98,9 +98,9 @@ print(result) --> deleted
 
 ## Demo
 
-### Corona
+In the __demo__ directory is a Corona project that you can build for HTML5 testing. 
 
-In the __demo__ directory is a Corona project that you can build for HTML5 testing. The demo does have some debug output that prints to the browser console. The plugin in the __plugin__ directory does not output any debug info.
+The demo does have some debug output that prints to the browser console. The plugin in the __plugin__ directory does not output any debug info.
 
 ## Notes
 
