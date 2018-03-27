@@ -113,8 +113,6 @@ The demo does have some debug output that prints to the browser console. The plu
 
 ## Notes
 
- - Only tested on Google Chrome at this time.
-
  - In the demo, the loading bar is not shown because of the black background. Hopefully this will be a build setting option in the future.
 
  - Reload the browser after setting a cookie to see that it has saved the cookie.
